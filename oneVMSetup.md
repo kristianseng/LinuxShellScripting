@@ -42,22 +42,22 @@ vagrant destroy - delete machine
 
 -----
 
-general notes
+general notes  
 
-cd shellclass
-mkdir localusers
-cd localusers
-vagrant init jasonc/centos7
-vagrant ssh // inside virtual machine
-cd /vagrant
-ls -l
-pwds
-// its possible to edit scripts on localmachine or vm, folder is the same
-luser-demo01.sh // file names with shell scripts dont matter (.sh - is not signifant)
-cat luser-demo01.sh
+cd shellclass  
+mkdir localusers  
+cd localusers  
+vagrant init jasonc/centos7  
+vagrant ssh // inside virtual machine  
+cd /vagrant  
+ls -l  
+pwds  
+// its possible to edit scripts on localmachine or vm, folder is the same  
+luser-demo01.sh // file names with shell scripts dont matter (.sh - is not signifant)  
+cat luser-demo01.sh  
 
-#!/bin/bash # - Sharp !Band #! = Shebang
-/bin/bash --> interpretor
+#!/bin/bash # - Sharp !Band #! = Shebang  
+/bin/bash --> interpretor  
 
 # - comment / not executed
 ----
