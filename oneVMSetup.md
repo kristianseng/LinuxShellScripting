@@ -61,23 +61,23 @@ cat luser-demo01.sh
 
 # - comment / not executed
 ----
-OWNER - GROUP - ANYONE ELSE -- CHOMD TO CHANGE 755 - DEFAULT
+OWNER - GROUP - ANYONE ELSE -- CHOMD TO CHANGE 755 - DEFAULT  
 
-./luser-demo01.sh executes file
-/vagrant/luser-demo01.sh second way
+./luser-demo01.sh executes file  
+/vagrant/luser-demo01.sh second way  
 
-mv luser-demo01.sh jason -> rename file
-touch -> creates empty file
-type echo -> show if its shell build it 
-type -a echo
-to way to run echo ->
-echo "hello"
-/usr/bin/echo 'Hello'
-help echo // help, all commands
-help echo |less
-uptime -> not shell buildin
-type -a uptime
-help uptime // dont get anything
-man uptime // get manual
+mv luser-demo01.sh jason -> rename file  
+touch -> creates empty file  
+type echo -> show if its shell build it   
+type -a echo  
+to way to run echo ->  
+echo "hello"  
+/usr/bin/echo 'Hello'  
+help echo // help, all commands  
+help echo |less  
+uptime -> not shell buildin  
+type -a uptime  
+help uptime // dont get anything  
+man uptime // get manual  
 
 
